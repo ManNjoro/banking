@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        h1 {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #ffffff;
+        }
+        h2 {
+            font-family: cursive;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #ffffff;
+        }
+        h3 {
+            font-size: 70px;
+            background-color: rgb(1, 31, 252);
+            color: #ffffff;
+        }
+        section {
+            width: 100%;
+            height: 95vh;
+            background-image: url("media/tech-daily-pz_L0YpSVvE-unsplash (1).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        #wrapper { width: 90%;
+            margin-left: auto;
+	        margin-right: auto;
+        }
+        #wrapper button{
+            width:33.33%;
+        }   
+/*table containing the contacts*/
+        .about-table{
+            position: relative;
+            left: 1%;
+        }
+/*Get in touch, or swing by for a cup of coffee.*/   
+        .aboutus{
+            color: rgb(16, 85, 213);
+        }       
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-weight: bold;
+            width:70%;
+        }
+        table tr:nth-child(even) {
+            background-color: #eee;
+        }
+        table tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        table th {
+            color: white;
+            background-color: black;
+        }
+        textarea{
+            resize: vertical;
+            max-height: 100px;
+        }
+/*comment div*/
+        .comment{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size:30px;
+    }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>UNION BANK</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script><!----social icons---->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script><!------contact call icon-->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script><!----comment icon icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!----google icons-->
+</head>
+
+<body>
+    <section>
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo">UNION BANK</a>
+            <!--menu-->
+            <ul>
+                <li><button onclick="document.location='index.html'">Home</button></li>
+                <li><button onclick="document.location='service.html'">Services</button></li>
+                <li><button onclick="document.location='team.html'">Team</button></li>
+                <li><button onclick="document.location='about.html'">About</button></li>
+                <li><button onclick="document.location='contact.html'" class="active">Contact us</button></li>
+                <li><button onclick="document.location='signup.php'">Sign up</button></li>
+                <li><button onclick="document.location='login.php'">Login</button></li> 
+            </ul>
+        </nav>
+        <!--text-->
+        <div class="text-container">
+            <p>ALL__ARE__WELCOMED</p>
+            <p>TO OUR BANK</p>
+            <p>Feel free to visit OUR CUSTOMER CARE OFFICE FOR ASSISTANCE.Thank you.</p>
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://m.me/darrells.jaccuzzi">facebook</a></li>
+                <li><a href="https://www.instagram.com/z_i.z.a/">instagram</a></li>
+                <li><a
+                        href="https://api.whatsapp.com/send?phone=254746370364&text=Hi,%20i%20am%20ziza">whatsapp</a>
+                </li>
+                <li><a href="https://twitter.com/Zizah001">twitter</a></li>
+                <li> call @ +254746370364</li>
+            </ul>
+        </nav>
+    </section>
+    <div id="wrapper">
+        <h2>Contact us through the following numbers for the following reasons;<br></h2>
+        <div class="about-table">
+            
+                <table>
+                    <tr>
+                        <th>Make payment or transfer</th>
+                        <th><i class="material-icons" style="font-size:30px;color:rgb(255, 255, 255)">&#xe0cf;</i> &nbsp; Contact  (toll free)</th>
+                    </tr>
+                    <tr>
+                        <td>Update address or personal information</td>
+                        <td>+01002004433</td>
+                    </tr>
+                    <tr>
+                        <td>Delayed services</td>
+                        <td>+01447700001</td>
+                    </tr>
+                    <tr>
+                        <td>Check balance and recent transaction</td>
+                        <td>+01000001000</td>
+                    </tr>
+                    <tr>
+                        <td>Management issues</td>
+                        <td>+01222333000</td>
+                    </tr>
+                    
+                </table>
+                <div class="aboutus"> 
+                    <p>Get in touch with us.</p><br>
+                </div>
+            <form>
+                <div class="comment">
+                     <p1><i class='fas fa-comments' style='font-size:48px;color:rgb(0, 0, 0)'></i></p1> &nbsp;Comment
+                </div>
+                
+                <textarea name="" id="" cols="100%"
+                    rows="10">Write your comments about our services offered and areas that need improvements. Thank you</textarea><br>
+                <button style='font-size:24px'><input type="submit" value="Submit Please"></button>
+            </form>
+        </div>
+        
+    </div>
+    <!--about-section-->
+</body>
+<footer>
+    <!--logo-->
+    <a href="#" class="logo">UNION BANK</a>
+    <!---social icons-->
+    <div class="social-icons">
+        <a href="https://m.me/darrells.jaccuzzi"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/z_i.z.a/"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=254746370364&text=Hi,%20i%20am%20ziza"><i
+                class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com/Zizah001"><i class="fab fa-twitter"></i></a>
+    </div>Copyright &copy; 2022 UNION BANK<br>
+    <a href="silateizizah@gmail.com"> Mail to:UNION BANK</a>
+</footer>
+</html>
