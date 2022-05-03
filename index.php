@@ -2,7 +2,7 @@
 session_start();
 
 include("connection.php");
-include("functions.php");
+
 
 ?>
 <!DOCTYPE html>
@@ -78,9 +78,8 @@ include("functions.php");
                 <li><button onclick="document.location='team.html'">Team</button></li>
                 <li><button onclick="document.location='about.html'">About</button></li>
                 <li><button onclick="document.location='contact.html'">Contact us</button></li>
-                <li><button onclick="document.location='account.php'">Accounts</button></li>
-                <li><button onclick="document.location='signup.php'">Sign up</button></li>
-                <li><button onclick="document.location='login.php'">Login</button></li>   
+                <li><button onclick="document.location='acc.php'">Accounts</button></li>
+                
             </ul>
             </nav>
         <!--text-->
